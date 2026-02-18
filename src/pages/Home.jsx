@@ -9,7 +9,7 @@ function Home() {
       <div className='h-screen w-screen bg-red-500 fixed'>
         <Video />
       </div>
-      <div className='h-screen w-screen relative '>
+      <div className='h-screen w-screen relative flex flex-col justify-between'>
         <HomeHeroText />
         <HomeBottomText />
       </div>
